@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yqT9+3BxSqhzR1R+HRpJ5NMWAcvGIN43I4zTCZIrhln+HUXGUsC93LPEf3aWypwDYwVT9TPq8kic56AuzOf0PA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DavidUngar\\OneDrive\\Documents\\Code\\FSharp\\Turncoats\\Turncoats.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DavidUngar\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
