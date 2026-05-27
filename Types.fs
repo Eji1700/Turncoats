@@ -27,35 +27,26 @@ type RegionWinner =
     | Piece of Piece 
     | Tie
 
-type RegionTemplate =
+type Region =
     {   Id: int // This is unique to regions not move/attack?
         Red: int 
         Blue: int 
         Black: int
         Winner: RegionWinner }
 
-type Region = RegionTemplate
-module RegionTemplate =
-    let Total template = 
-        template.Red + template.Blue + template.Black
-
 module Region =
-    let Total region = RegionTemplate.Total region
+    let Total region = 
+        region.Red + region.Blue + region.Black
 
-type Attackers = RegionTemplate
-
-module Attackers =
-    let Total attackers = RegionTemplate.Total attackers
-
-type Movers = RegionTemplate
-
-module Movers =
-    let Total movers = RegionTemplate.Total movers
 
 module Stuff =
-    let test : Movers =
+    let test : Region =
         {
+            Id = 1
             Red = 1
             Blue = 2
             Black = 3
+            Winner = Tie
         }   
+
+Region.Total Stuff.test
