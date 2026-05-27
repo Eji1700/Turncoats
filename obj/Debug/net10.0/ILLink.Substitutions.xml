@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="Turncoats">
+    <resource name="FSharpSignatureData.Turncoats" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.Turncoats" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.Turncoats" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.Turncoats" action="remove"></resource>
+    <resource name="FSharpOptimizationData.Turncoats" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.Turncoats" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.Turncoats" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.Turncoats" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.Turncoats" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.Turncoats" action="remove"></resource>
+  </assembly>
+</linker>
